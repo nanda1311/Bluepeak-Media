@@ -1,5 +1,5 @@
 /* ============================================================
-   BLUEPICK MEDIA — script.js
+   Bluepeak MEDIA — script.js
    Premium Creative Agency Website Scripts
    ============================================================ */
 
@@ -19,7 +19,7 @@
     'Loading experience…',
     'Crafting your view…',
     'Almost there…',
-    'Welcome to Bluepick…'
+    'Welcome to Bluepeak…'
   ];
 
   let progress = 0;
