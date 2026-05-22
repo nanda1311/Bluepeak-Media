@@ -645,7 +645,7 @@ Karnataka, India</p>
     </div>
     <div class="footer-bottom">
       <div class="container">
-        <p>© 2025 Bluepeak Media. All rights reserved.</p>
+        <p>© <span id="currentYear"></span> Bluepeak Media. All rights reserved.</p>
         <div class="footer-legal">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>
@@ -665,6 +665,9 @@ Karnataka, India</p>
   <!-- VanillaTilt -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
 
+  <script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
   <script src="script.js"></script>
 </body>
 </html>
